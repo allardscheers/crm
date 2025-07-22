@@ -1,0 +1,19 @@
+[project]
+name = "crm"
+version = "0.1.0"
+description = "CRM JK"
+authors = [
+    {name = "Allard Scheers",email = "allard.scheers@kpn.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mysql (>=0.0.3,<0.0.4)",
+    "mysql-connector-python (>=9.4.0,<10.0.0)",
+    "django (>=5.2.4,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
